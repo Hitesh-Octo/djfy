@@ -1,0 +1,16 @@
+.Gallery {
+    background-color: #07091F;
+    color: #ffffff;
+    font-family: 'Arial', sans-serif;
+}
+
+.Gimgh{
+    height: 180px;
+}
+
+@media screen and (max-width: 770px){
+    .Gimgh{
+        width: 300px;
+    }
+    
+}
