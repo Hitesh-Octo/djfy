@@ -31,18 +31,20 @@
 }
 
 .Box1_Icon{
-    /* border: 1px solid red; */
-    font-size: 25px;
+    font-size: 36px;
 
 
 }
 
-.Box2{
-    border: 1px solid white;
-    width: 250px;
-    height: 180px;
-    border-radius: 10px;
+.Box2_Icon{
+    font-size: 20px;
 }
+
+.Box3_Icon{
+    font-size: 32px;
+}
+
+
 
 @media screen and (max-width:1000px){
     .Work_container{

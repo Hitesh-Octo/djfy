@@ -3,6 +3,7 @@ import "./work.css";
 
 import { IoIosContact } from "react-icons/io";
 import { BsQrCodeScan } from "react-icons/bs";
+import { GiReceiveMoney } from "react-icons/gi";
 
 function Work() {
   return (
@@ -15,11 +16,11 @@ function Work() {
         <div className="w-16 h-1 bg-[#ED3E31] mb-8"></div>
 
         {/* Work_content */}
-        <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-6 max-w-6xl">
+        <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-9 max-w-6xl">
           <div className="Box1">
             <div className="text-white Box1-content">
               <div className="Box1_Iconbg">
-                <div className="Box1_Icon pb-5 ml-1 pt-1">
+                <div className="Box1_Icon ml-1 pt-1">
                   <IoIosContact />
                 </div>
               </div>
@@ -35,7 +36,7 @@ function Work() {
           <div className="Box1">
             <div className="text-white Box1-content">
               <div className="Box1_Iconbg">
-                <div className="Box1_Icon pb-5 ml-1 pt-1">
+                <div className="Box2_Icon pb-5 ml-3 pt-3 font-[50px]">
                   <BsQrCodeScan />
                 </div>
               </div>
@@ -51,9 +52,8 @@ function Work() {
           <div className="Box1">
             <div className="text-white Box1-content">
               <div className="Box1_Iconbg">
-                <div className="Box1_Icon pb-5 ml-1 pt-1">
-                  {" "}
-                  <IoIosContact />{" "}
+                <div className="Box3_Icon pb-5 ml-1 pt-1">
+                  <GiReceiveMoney />
                 </div>
               </div>
               <h2 className="pl-3 pb-2">Free Account Creation</h2>
