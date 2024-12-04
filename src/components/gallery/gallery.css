@@ -6,11 +6,12 @@
 
 .Gimgh{
     height: 180px;
+    width: 180px;
 }
 
 @media screen and (max-width: 770px){
     .Gimgh{
-        width: 300px;
+        width: 260px;
     }
     
 }
