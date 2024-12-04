@@ -6,7 +6,7 @@ import Work from './components/work/Work'
 function App() {
   return (
     <div>
-      <Top />
+      {/* <Top /> */}
       <Work/>
       <Gallery/>
     </div>
